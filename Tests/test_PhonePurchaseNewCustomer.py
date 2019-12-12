@@ -15,7 +15,7 @@ from Pages.OrderConfirmationPage import OrderConfirmation
 from Utils.SS import SS
 
 
-@pytest.mark.skip(" I don't want to execute this now")
+#@pytest.mark.skip(" I don't want to execute this now")
 
 
 @pytest.mark.usefixtures("test_setup")

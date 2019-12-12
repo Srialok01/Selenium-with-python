@@ -13,7 +13,8 @@ from Pages.AddressPage import Address
 from Pages.PaymentPage import Payment
 from Pages.OrderConfirmationPage import OrderConfirmation
 from Utils.SS import SS
-# @pytest.mark.skip("I don't want to execute this now")
+
+@pytest.mark.skip("I don't want to execute this now")
 
 @pytest.mark.smoke
 class Test_PhonePurchaseExistingCustomer():

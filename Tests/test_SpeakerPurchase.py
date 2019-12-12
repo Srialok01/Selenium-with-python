@@ -8,7 +8,7 @@ from Pages.CartPage import CartPage
 from Pages.HomePage import HomePage
 from Pages.Electronics_OthersPage import OtherItems
 from Pages.LoginPage import LoginPage
-from Pages.CheckOutPage import CheckOut
+
 from Pages.AddressPage import Address
 from Pages.PaymentPage import Payment
 from Pages.OrderConfirmationPage import OrderConfirmation
