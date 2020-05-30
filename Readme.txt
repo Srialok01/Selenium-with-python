@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 Hello there !
 
 Below are the Key features of the framework :
