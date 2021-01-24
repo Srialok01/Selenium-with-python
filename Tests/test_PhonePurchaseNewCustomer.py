@@ -97,14 +97,14 @@ class Test_PhonePurchaseNewCustomer():
         allure.attach(self.driver.get_screenshot_as_png(), name=ScreenShotName,
                       attachment_type=allure.attachment_type.PNG)
 
-    def test_07OrderConfirmation(self):
-        driver = self.driver
-        orderConfObj = OrderConfirmation(driver)
-        orderConfObj.OrderConfirmationdetails()
-        ss = SS(driver)
-        time = moment.now().strftime("%H-%M-%S_%d-%m-%Y")
-        testName = Utils.whoami()
-        ScreenShotName = testName + time
-        ss.screenshot(ss_path + ScreenShotName + ".png")
-        allure.attach(self.driver.get_screenshot_as_png(), name=ScreenShotName,
-                      attachment_type=allure.attachment_type.PNG)
+#     def test_07OrderConfirmation(self):
+#         driver = self.driver
+#         orderConfObj = OrderConfirmation(driver)
+#         orderConfObj.OrderConfirmationdetails()
+#         ss = SS(driver)
+#         time = moment.now().strftime("%H-%M-%S_%d-%m-%Y")
+#         testName = Utils.whoami()
+#         ScreenShotName = testName + time
+#         ss.screenshot(ss_path + ScreenShotName + ".png")
+#         allure.attach(self.driver.get_screenshot_as_png(), name=ScreenShotName,
+#                       attachment_type=allure.attachment_type.PNG)
